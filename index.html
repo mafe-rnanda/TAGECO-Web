@@ -3,34 +3,31 @@
   <head>
     <!-- External CSS -->
     <!-- App CSS -->
-    <link rel="stylesheet" href="/styles/layout.css" type="text/css" />
+    <link rel="stylesheet" href="./styles/layout.css" type="text/css" />
     <!-- Fonts -->
   </head>
 
   <body>
     <!-- Top nav bar (fixed) -->
     <nav>
-      <div>
-        <img src="./images/TAG logo_full.jpg" />
-        <div>
-          <h2>شركة طريق الأمل للمقاولات العامة المشتركة</h2>
-          <h1>TAGECO JSC</h1>
-        </div>
-      </div>
-      <div>
-        <ul>
-          <li>About Us</li>
-          <li>Ongoing Projects</li>
-          <li>Completed Projects</li>
-          <li>Facilities</li>
-          <li>Logistics</li>
-          <li>Human Resources</li>
-          <li>Construction Equipment</li>
-          <li>Contact</li>
-        </ul>
-      </div>
-      <div>
+      <div class="language-link">
         <a href="">عــــربــــي</a>
+      </div>
+
+      <img
+        class="logo-img"
+        alt="TAGECO-logo"
+        src="./images/TAG logo_full.jpg"
+      />
+
+      <div>
+        <a href="" class="nav-link">About Us</a>
+        <a href="" class="nav-link">Projects</a>
+        <a href="" class="nav-link">Facilities</a>
+        <a href="" class="nav-link">Logistics</a>
+        <a href="" class="nav-link">Human Resources</a>
+        <a href="" class="nav-link">Construction Equipment</a>
+        <a href="" class="nav-link">Contact</a>
       </div>
     </nav>
     <!-- Page-specific (main) content here -->
@@ -60,6 +57,7 @@
         </p>
       </div>
     </main>
+    <hr />
     <!-- Footer (fixed) -->
     <footer>
       <div>
@@ -82,7 +80,7 @@
           >
         </p>
       </div>
-      <img src="./images/TUV_Cert_ISO_9001.jpeg" />
+      <img src="./images/TUV_Cert_ISO_9001.jpeg" class="iso-9001-2000" />
       <div>
         <p>
           Paid Capital: 3,000,000 LD

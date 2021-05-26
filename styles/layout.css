@@ -1,0 +1,43 @@
+.logo-img {
+  width: 30vh;
+  margin-bottom: 5vh;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main {
+  width: 90%;
+  margin: 5vh auto;
+}
+
+.language-link {
+  display: flex;
+  width: 90%;
+  justify-content: flex-end;
+}
+
+a:hover {
+  cursor: pointer;
+}
+
+.nav-link {
+  padding: 2vh;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: auto;
+}
+
+.iso-9001-2000 {
+  border-right: 1px solid gray;
+  padding: 0 15vh;
+  border-left: 1px solid gray;
+}
