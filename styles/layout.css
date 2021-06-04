@@ -1,3 +1,7 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
 .logo-img {
   width: 30vh;
   margin-bottom: 5vh;
@@ -9,6 +13,18 @@ nav {
   align-items: center;
 }
 
+.nav-link {
+  padding: 2vh;
+  text-decoration: none;
+  color: #000;
+}
+
+a:hover {
+  cursor: pointer;
+  /* font-size: 1.15em; */
+  background-color: red;
+}
+
 main {
   width: 90%;
   margin: 5vh auto;
@@ -18,14 +34,6 @@ main {
   display: flex;
   width: 90%;
   justify-content: flex-end;
-}
-
-a:hover {
-  cursor: pointer;
-}
-
-.nav-link {
-  padding: 2vh;
 }
 
 footer {
@@ -40,4 +48,16 @@ footer {
   border-right: 1px solid gray;
   padding: 0 15vh;
   border-left: 1px solid gray;
+}
+
+/* Equipment */
+.equipment-table {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* Footer */
+
+hr {
+  width: 90%;
 }
