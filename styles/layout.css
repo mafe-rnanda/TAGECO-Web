@@ -7,6 +7,10 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
+#about-us, #projects, #facilities, #logistics, #human-resources, #construction-equipment {
+  margin: 5vh 2vh;
+}
+
 /* Navigation bar */
 .logo-img {
   width: 30vh;
@@ -48,28 +52,52 @@ nav {
   transform-origin: bottom left;
 }
 
-/* a:hover {
-  cursor: pointer;
-} */
-
-main {
-  width: 90%;
-  margin: 5vh auto;
-  
-}
-
 .language-link {
   display: flex;
   width: 90%;
   justify-content: flex-end;
 }
 
-footer {
+/* About us */
+
+#about-us > p {
+  padding-top:12px;
+}
+.activities {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 90%;
-  margin: auto;
+}
+
+.slideshow {
+  overflow: hidden;
+  height: auto;
+  width: 352px;
+  margin: 10px 15px;
+}
+
+.slide-wrapper {
+  width: 1408px;
+  animation: slide 18s ease infinite;
+}
+
+.slide {
+  float: left;
+  height: 250px;
+  width: 352px;
+}
+
+@keyframes slide {
+  20% {margin-left: 0px;}
+  30% {margin-left: -352px;}
+  50% {margin-left: -352px;}
+  60% {margin-left: -704px;}
+  70% {margin-left: -704px;}
+  80% {margin-left: -1056px;}
+  90% {margin-left: -1056px;}
+}
+
+.activity-description {
+  margin-top: 260px;
+  text-align: center;
 }
 
 /* Projects */
@@ -124,6 +152,13 @@ svg:hover {
 }
 
 /* Footer */
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: auto;
+}
 
 hr {
   width: 90%;
