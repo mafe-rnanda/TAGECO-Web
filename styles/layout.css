@@ -1,14 +1,49 @@
 * {
-box-sizing: border-box;
-margin: 0;
+  box-sizing: border-box;
+  margin: 0;
 }
 
 body {
   font-family: "Poppins", sans-serif;
 }
 
-#about-us, #projects, #facilities, #logistics, #human-resources, #construction-equipment {
-  margin: 5vh 2vh;
+#about-us,
+#projects,
+#facilities,
+#logistics,
+#human-resources,
+#construction-equipment {
+  margin-top: 5vh;
+}
+
+.divider {
+  border-bottom: 3px solid #cdcdcd;
+  background-color: #000;
+  height: 1px;
+  margin: 0.5em 0px 1.5em;
+}
+.divider span {
+  display: block;
+  width: 100px;
+  height: 3px;
+  background-color: #1d7552;
+}
+
+/* Go to top button */
+.top-link {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin: 0 1.5em 3em 0;
+}
+
+svg {
+  width: 50px;
+  opacity: 0.3;
+}
+
+svg:hover {
+  opacity: 1;
 }
 
 /* Navigation bar */
@@ -35,14 +70,14 @@ nav {
 }
 
 .nav-link:after {
-  content: '';
+  content: "";
   position: absolute;
   width: 100%;
   transform: scaleX(0);
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: #1D7552;
+  background-color: #1d7552;
   transform-origin: bottom right;
   transition: transform 0.25s ease-out;
 }
@@ -61,7 +96,7 @@ nav {
 /* About us */
 
 #about-us > p {
-  padding-top:12px;
+  padding-top: 12px;
 }
 .activities {
   display: flex;
@@ -86,13 +121,27 @@ nav {
 }
 
 @keyframes slide {
-  20% {margin-left: 0px;}
-  30% {margin-left: -352px;}
-  50% {margin-left: -352px;}
-  60% {margin-left: -704px;}
-  70% {margin-left: -704px;}
-  80% {margin-left: -1056px;}
-  90% {margin-left: -1056px;}
+  20% {
+    margin-left: 0px;
+  }
+  30% {
+    margin-left: -352px;
+  }
+  50% {
+    margin-left: -352px;
+  }
+  60% {
+    margin-left: -704px;
+  }
+  70% {
+    margin-left: -704px;
+  }
+  80% {
+    margin-left: -1056px;
+  }
+  90% {
+    margin-left: -1056px;
+  }
 }
 
 .activity-description {
@@ -107,14 +156,13 @@ nav {
   grid-auto-flow: column;
   grid-auto-columns: 1fr; */
   background-color: lightgrey;
+  position: relative;
 }
 
 .project-status {
   padding: 5%;
   text-align: justify;
 }
-
-
 
 /* Logistics */
 
@@ -124,8 +172,8 @@ nav {
   grid-template-rows: 1fr 1fr;
   gap: 5px 5px;
   grid-template-areas:
-      ". ."
-      ". .";
+    ". ."
+    ". .";
   background-color: lightgrey;
 }
 
@@ -133,24 +181,6 @@ nav {
 .equipment-table {
   display: flex;
   justify-content: space-around;
-}
-
-
-/* Go to top button */
-.top-link {
-  position: fixed;
-  bottom: 0;
-  right: 0;
-  margin: 0 1.5em 3em 0
-}
-
-svg {
-  width: 50px;
-  opacity: 0.3;
-}
-
-svg:hover {
-  opacity: 1;
 }
 
 /* Footer */
