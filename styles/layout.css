@@ -109,6 +109,23 @@ nav {
   border-radius: 1vh;
 }
 
+/* Hero image */
+#hero-img {
+  height: 65vh;
+  object-fit: cover;
+  background: #263782 center / cover
+    url(../images/highRes/boukaih-bGMyTnSlYvE-unsplash.jpg);
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding: 3vh 15vh;
+  justify-content: flex-end;
+}
+#hero-img h1 {
+  color: #fff;
+  font-size: 5em;
+}
+
 /* About us */
 
 #about-us > p {
