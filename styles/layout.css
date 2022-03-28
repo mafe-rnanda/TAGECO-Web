@@ -113,8 +113,7 @@ nav {
 #hero-img {
   height: 65vh;
   object-fit: cover;
-  background: #263782 center / cover
-    url(../images/highRes/boukaih-bGMyTnSlYvE-unsplash.jpg);
+  background: #263782 center / cover url(../images/highRes/HeroImage.jpg);
   position: relative;
   display: flex;
   align-items: center;
@@ -127,59 +126,23 @@ nav {
 }
 
 /* About us */
-
-#about-us > p {
+#about-us {
+  display: flex;
+  justify-content: space-between;
+  margin: 3%;
+  align-items: center;
+}
+#about-us p {
   padding-top: 12px;
 }
 .activities {
-  display: flex;
+  max-width: 700px;
+  min-width: 500px;
 }
 
-.slideshow {
-  overflow: hidden;
-  height: auto;
-  width: 352px;
-  margin: 10px 15px;
-}
-
-.slide-wrapper {
-  width: 1408px;
-  animation: slide 18s ease infinite;
-}
-
-.slide {
-  float: left;
-  height: 250px;
-  width: 352px;
-}
-
-@keyframes slide {
-  20% {
-    margin-left: 0px;
-  }
-  30% {
-    margin-left: -352px;
-  }
-  50% {
-    margin-left: -352px;
-  }
-  60% {
-    margin-left: -704px;
-  }
-  70% {
-    margin-left: -704px;
-  }
-  80% {
-    margin-left: -1056px;
-  }
-  90% {
-    margin-left: -1056px;
-  }
-}
-
-.activity-description {
-  margin-top: 260px;
-  text-align: center;
+.intro-text {
+  padding: 0 5vh;
+  text-align: justify;
 }
 
 /* Projects */
