@@ -119,6 +119,7 @@ nav {
   align-items: center;
   padding: 3vh 15vh;
   justify-content: flex-end;
+  margin-top: 5vh;
 }
 #hero-img h1 {
   color: #fff;
@@ -143,6 +144,13 @@ nav {
 .intro-text {
   padding: 0 5vh;
   text-align: justify;
+}
+
+/* Contact us */
+#contact-us {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 
 /* Projects */
