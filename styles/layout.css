@@ -107,6 +107,8 @@ nav {
   color: #fff;
   padding: 0.5vh 2vh;
   border-radius: 1vh;
+  border: none;
+  font-family: "Poppins", sans-serif;
 }
 
 /* Hero image */
@@ -151,6 +153,12 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-around;
+  background-color: #e2dfdf;
+}
+
+#contact-us h2,
+button {
+  padding: 5vh;
 }
 
 /* Projects */
