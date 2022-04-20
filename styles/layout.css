@@ -17,19 +17,6 @@ body {
   margin-top: 5vh;
 }
 
-.divider {
-  border-bottom: 3px solid #cdcdcd;
-  background-color: #000;
-  height: 1px;
-  margin: 0.5em 0px 1.5em;
-}
-.divider span {
-  display: block;
-  width: 100px;
-  height: 3px;
-  background-color: #1d7552;
-}
-
 /* Go to top button */
 .top-link {
   position: fixed;
