@@ -162,18 +162,26 @@ button {
 }
 
 /* Projects */
-
+#projects {
+  margin: 3%;
+}
 .projects-container {
-  /* display: grid;
-  grid-auto-flow: column;
-  grid-auto-columns: 1fr; */
-  background-color: lightgrey;
-  position: relative;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
 }
 
 .project-status {
-  padding: 5%;
+  padding: 2vh 0;
   text-align: justify;
+}
+
+.left-column {
+  padding-right: 2vh;
+}
+
+.project-status div {
+  padding: 2vh 0;
 }
 
 /* Logistics */
