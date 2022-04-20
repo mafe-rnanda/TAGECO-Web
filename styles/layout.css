@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: "Poppins", sans-serif;
+  /* font-family: "Poppins", sans-serif; */
 }
 
 #about-us,
@@ -108,7 +108,7 @@ nav {
   padding: 0.5vh 2vh;
   border-radius: 1vh;
   border: none;
-  font-family: "Poppins", sans-serif;
+  /* font-family: "Poppins", sans-serif; */
 }
 
 /* Hero image */
@@ -174,6 +174,7 @@ button {
 .project-status {
   padding: 2vh 0;
   text-align: justify;
+  flex: 1;
 }
 
 .left-column {
@@ -184,8 +185,38 @@ button {
   padding: 2vh 0;
 }
 
-/* Logistics */
+/* Facilities */
+#facilities {
+  background-color: #263782;
+  padding: 3%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+#facilities h1 {
+  color: #fff;
+}
+#facilities p {
+  color: #fff;
+}
 
+.facilities-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 5vh 0px;
+  padding-right: 10vh;
+}
+
+#facilities img {
+  width: 50px;
+}
+
+.facilities-column {
+  flex: 1;
+}
+
+/* Logistics */
 .logistics-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
