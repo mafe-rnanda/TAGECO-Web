@@ -10,11 +10,9 @@ body {
 
 #about-us,
 #projects,
-#facilities,
 #logistics,
-#human-resources,
-#construction-equipment {
-  margin-top: 5vh;
+#human-resources {
+  margin: 3%;
 }
 
 /* Go to top button */
@@ -204,6 +202,9 @@ button {
 }
 
 /* Logistics */
+#logistics h1{
+  padding: 5vh 0;
+}
 .logistics-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -212,14 +213,29 @@ button {
   grid-template-areas:
     ". ."
     ". .";
-  background-color: lightgrey;
+    padding: 3vh 0;
+}
+.logistics-example {
+  border: #e2dfdf 1px solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: 3vh 5vh;
 }
 
-/* Equipment */
-.equipment-table {
+.logistics-example p {
+  border-top: #e2dfdf 1px solid;
+  background-color: #e2dfdf;
+  height: 150px;
   display: flex;
-  justify-content: space-around;
+  flex-direction: column;
+  padding: 3vh 5vh;
+  justify-content: flex-start;
+  align-items: center;
 }
+
+/* Human Resources */
 
 /* Equipment */
 #construction-equipment img {
