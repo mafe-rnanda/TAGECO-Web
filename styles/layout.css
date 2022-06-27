@@ -221,6 +221,51 @@ button {
   justify-content: space-around;
 }
 
+/* Equipment */
+#construction-equipment img {
+  height:auto;
+  width: 500px;
+}
+
+#construction-equipment {
+  display: flex;
+  align-items: center;
+  padding-bottom: 5vh;
+}
+
+.equipment-summary{
+  display:flex;
+  flex-direction: column;
+  padding: 3vh 0;
+}
+.equipment-summary h3{
+  padding-bottom: 2vh;
+}
+
+.equipment-content h1 {
+  text-align: center;
+  padding-bottom: 5vh;
+}
+
+.equipment-content p {
+  text-align: justify;
+  padding-bottom: 2vh;
+}
+
+.equipment-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 0 10vh;
+}
+
+.equipment-table{
+  display: flex;
+}
+.equipment-table table{
+  flex-basis: 100%;
+}
+
 /* Footer */
 footer {
   display: flex;
