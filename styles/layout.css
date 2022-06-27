@@ -271,20 +271,23 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 90%;
-  margin: auto;
+  padding: 0 3vh;
 }
-
+.footer-logo {
+  width: 150px;
+  height: auto;
+  margin-right: 5vh;
+}
 hr {
   width: 90%;
 }
-
-.iso-9001-2000 {
-  border-right: 1px solid gray;
-  padding: 0 15vh;
-  border-left: 1px solid gray;
+.info-footer {
+  display:flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  margin: 0 5vh;
 }
-
 .contact-info {
-  padding: 0 2em;
+  /* padding: 0 2em; */
+  flex-basis: 100%;
 }
