@@ -236,6 +236,23 @@ button {
 }
 
 /* Human Resources */
+#human-resources h1{
+  text-align: center;
+  padding-bottom: 5vh;
+}
+.HR-content {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  margin: 5vh;
+}
+.staff-and-training {
+  flex-basis: 100%;
+}
+.staff-and-training h2 {
+  text-align: center;
+  padding-bottom: 2vh;
+}
 
 /* Equipment */
 #construction-equipment img {
