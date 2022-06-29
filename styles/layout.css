@@ -12,7 +12,7 @@ body {
 #projects,
 #logistics,
 #human-resources {
-  margin: 3%;
+  margin: 5%;
 }
 
 /* Go to top button */
@@ -85,7 +85,6 @@ nav {
 /* Contact button */
 .contact-link {
   position: relative;
-  margin: 1.5vh;
   text-decoration: none;
   text-transform: uppercase;
   background: #263782;
@@ -117,7 +116,6 @@ nav {
 #about-us {
   display: flex;
   justify-content: space-between;
-  margin: 3%;
   align-items: center;
 }
 #about-us p {
@@ -129,7 +127,7 @@ nav {
 }
 
 .intro-text {
-  padding: 0 5vh;
+  padding-left: 10vh;
   text-align: justify;
 }
 
@@ -137,19 +135,12 @@ nav {
 #contact-us {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
   background-color: #e2dfdf;
-}
-
-#contact-us h2,
-button {
-  padding: 5vh;
+  padding: 5%;
 }
 
 /* Projects */
-#projects {
-  margin: 3%;
-}
 .projects-container {
   display: flex;
   align-items: flex-start;
@@ -173,7 +164,7 @@ button {
 /* Facilities */
 #facilities {
   background-color: #263782;
-  padding: 3%;
+  padding: 5%;
   display: flex;
   align-items: center;
   justify-content: space-around;
